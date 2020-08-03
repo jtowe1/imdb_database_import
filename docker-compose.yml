@@ -1,0 +1,10 @@
+db:
+    image: mysql:5.7
+    command: --default-authentication-plugin=mysql_native_password
+    container_name: imdb
+    hostname: imdb
+    ports:
+      - 3306:3306
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password123
