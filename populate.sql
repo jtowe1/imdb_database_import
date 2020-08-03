@@ -1,0 +1,41 @@
+LOAD DATA LOCAL INFILE '/path_to/name.basics.tsv'
+INTO TABLE name_basics
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/path_to/title.akas.tsv'
+INTO TABLE title_akas
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/path_to/title.basics.tsv'
+INTO TABLE title_basics
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/path_to/title.crew.tsv'
+INTO TABLE title_crew
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/path_to/title.episode.tsv'
+INTO TABLE title_episode
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/path_to/title.principals.tsv'
+INTO TABLE title_principals
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/path_to/title.ratings.tsv'
+INTO TABLE title_ratings
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
